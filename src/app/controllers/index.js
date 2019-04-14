@@ -1,6 +1,6 @@
 // const fs = require('fs')
 // const QRCode = require('qrcode')
-const weChat = require('../../common/weChat')
+const weChat = require('../../common/wechat')
 
 /**
  * 微信初始化接口
