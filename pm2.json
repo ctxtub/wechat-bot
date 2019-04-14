@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "wechat-bot",
+    "script": "src/index.js",
+    "exec_mode": "cluster",
+    "instances": 1,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "output": "/opt/log/wechat-bot/wechat-bot-out.log",
+    "error": "/opt/log/wechat-bot/wechat-bot-error.log",
+    "merge_logs": true,
+    "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS"
+  }]
+}
